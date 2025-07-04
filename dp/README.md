@@ -16,8 +16,9 @@ It is highly recommended to use a virtual environment via [conda](https://docs.c
    git clone https://github.com/your-repo/adadpigu.git
    cd adadpigu
 2. **Install dependencies:**
-   ```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 # Environment
 This code is tested on Linux system with CUDA version 11.0
 
@@ -33,9 +34,17 @@ matplotlib>=3.5.0
 pandas>=1.3.0
 tqdm>=4.0.0
 
-#Quick Start
-The following commands are examples for reproducing experimental results on MNIST, FMNIST, and CIFAR-10 :
+## Quick Start
 
+Below are example commands for reproducing the experimental results on MNIST, FMNIST, and CIFAR-10:
+
+### MNIST
+```bash
 python main.py --dataset mnist --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_mnist
+```
+```bash
 python main.py --dataset fmnist --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_fmnist
+```
+```bash
 python main.py --dataset cifar10 --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_cifar10
+```
