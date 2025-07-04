@@ -1,4 +1,4 @@
-# AdaDPIGU: Differentially Private SGD with Adaptive Clipping and Importance-Based Gradient Updates for Deep Neural Networks
+# AdaDPIGU
 
 This repository provides the official implementation of the paper:  
 **AdaDPIGU: Differentially Private SGD with Adaptive Clipping and Importance-Based Gradient Updates for Deep Neural Networks**.
