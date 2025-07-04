@@ -39,12 +39,12 @@ tqdm>=4.0.0
 Below are example commands for reproducing the experimental results on MNIST, FMNIST, and CIFAR-10:
 
 ### MNIST
-```bash
-python main.py --dataset mnist --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_mnist
 ```
-```bash
-python main.py --dataset fmnist --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_fmnist
+python main.py --dataset mnist  --private --eps 4 --delta 1e-5 --sess adadpigu_mnist
 ```
-```bash
-python main.py --dataset cifar10 --n_epoch 200 --batchsize 1000 --lr 0.1 --private --clip 5 --eps 4 --delta 1e-5 --sess adadpigu_cifar10
+```
+python main.py --dataset fmnist  --private --eps 4 --delta 1e-5 --sess adadpigu_fmnist
+```
+```
+python main.py --dataset cifar10  --private --eps 4 --delta 1e-5 --sess adadpigu_cifar10
 ```
