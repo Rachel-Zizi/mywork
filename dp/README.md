@@ -8,8 +8,8 @@ This repository provides the official implementation of the paper:
 ## Installation
 
 **Requirements:**  
-Python 3.8 or above is recommended.  
-It is highly recommended to use a virtual environment via [conda](https://docs.conda.io/en/latest/) or [venv](https://docs.python.org/3/library/venv.html).
+- Python 3.8 or above  
+- Linux system (tested), CUDA 11.0 recommended
 
 1. **Clone the repository:**
    ```bash
